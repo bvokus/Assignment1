@@ -29,3 +29,6 @@
 	(II) Polymorphism - how a program decides which method of a class it is going to use. Able to redefine methods for classes
 	(III) Encapculation - combining data and functions into a class. Data is accessed though functions inside classes. 
 
+Extra Points:
+
+7. The RoleGame prototype is using encapsulation and polymorphism. The private and public variables and methods in Weapon and Weapon factory are using encapsulation. The method getName() allows RoleGame to retrieve the name of the weapon without directly accessing data. Polymorphism is being used because all subclasses are based off the class Weapon. All these subclasses have hitpoints, and a hit() method utilizes that data.  
