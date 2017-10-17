@@ -1,0 +1,34 @@
+(a) Counting objects: 10, done.
+	Delta compression using up to 8 threads.
+	Compressing objects: 100% (7/7), done.
+	Writing objects: 100% (10/10), 756 KiB | 0  KiB/s, done.
+	Total 10 (delta 3), reused 0 (delta 0)
+	remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+	To https://github.com/bvokus/Assignment1
+		fbdbe93..704a441  master -> master
+(b) 9 - git log
+
+(c) .gitignore was last modified: Wed Sep 27 16:31:42 / command used git log .gitignore
+
+(d) ID: cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+    ID: 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+(e) Reasons for branches in Git repository:
+	1) Branches help to keep the project organized, while allowing multiple people in the group to work at the same time
+	2) Seperate parts of the project, create a branch for testing and another branch for adding features
+
+(f) git log - shows info on only files that have commits
+    git status - shows files modified since the last commit, as well as untracked files
+
+(g) git log --follow Weapon.h
+
+(h) git log --all --grep = "file" 
+
+(i) 
+	(I) Inheritance - allows objects to take on the properties of existing objects. Basically a class derives from an already existing class. Child will inherit from a parent class.  
+	(II) Polymorphism - how a program decides which method of a class it is going to use. Able to redefine methods for classes
+	(III) Encapculation - combining data and functions into a class. Data is accessed though functions inside classes. 
+
+Extra Points:
+
+7. The RoleGame prototype is using encapsulation and polymorphism. The private and public variables and methods in Weapon and Weapon factory are using encapsulation. The method getName() allows RoleGame to retrieve the name of the weapon without directly accessing data. Polymorphism is being used because all subclasses are based off the class Weapon. All these subclasses have hitpoints, and a hit() method utilizes that data.  
